@@ -1,0 +1,29 @@
+{
+    "stat_per_model": {
+        "gpt-3.5-turbo": {
+            "injection_successful_count": 531.0,
+            "injection_unsuccessful_count": 815.0,
+            "total_count": 1346.0,
+            "injection_successful_percentage": 0.39450222882615155,
+            "injection_unsuccessful_percentage": 0.6054977711738484
+        }
+    },
+    "stat_per_model_per_variant": {
+        "gpt-3.5-turbo": {
+            "extraction": {
+                "injection_successful_count": 279,
+                "injection_unsuccessful_count": 291,
+                "total_count": 570,
+                "injection_successful_percentage": 0.48947368421052634,
+                "injection_unsuccessful_percentage": 0.5105263157894737
+            },
+            "hijacking": {
+                "injection_successful_count": 252,
+                "injection_unsuccessful_count": 524,
+                "total_count": 776,
+                "injection_successful_percentage": 0.3247422680412371,
+                "injection_unsuccessful_percentage": 0.6752577319587629
+            }
+        }
+    }
+}

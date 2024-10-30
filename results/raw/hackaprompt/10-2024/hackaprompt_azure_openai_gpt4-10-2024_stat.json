@@ -1,0 +1,96 @@
+{
+    "stat_per_model": {
+        "gpt-4o-scanner": {
+            "injection_successful_count": 579.0,
+            "injection_unsuccessful_count": 2078.0,
+            "total_count": 2657.0,
+            "injection_successful_percentage": 0.2179149416635303,
+            "injection_unsuccessful_percentage": 0.7820850583364697
+        }
+    },
+    "stat_per_model_per_variant": {
+        "gpt-4o-scanner": {
+            "hijacking": {
+                "injection_successful_count": 549,
+                "injection_unsuccessful_count": 1641,
+                "total_count": 2190,
+                "injection_successful_percentage": 0.25068493150684934,
+                "injection_unsuccessful_percentage": 0.7493150684931507
+            },
+            "extraction": {
+                "injection_successful_count": 30,
+                "injection_unsuccessful_count": 437,
+                "total_count": 467,
+                "injection_successful_percentage": 0.06423982869379015,
+                "injection_unsuccessful_percentage": 0.9357601713062098
+            }
+        }
+    },
+    "stat_per_model_per_level": {
+        "gpt-4o-scanner": {
+            "3": {
+                "injection_successful_count": 232,
+                "injection_unsuccessful_count": 147,
+                "total_count": 379,
+                "injection_successful_percentage": 0.6121372031662269,
+                "injection_unsuccessful_percentage": 0.38786279683377306
+            },
+            "8": {
+                "injection_successful_count": 98,
+                "injection_unsuccessful_count": 198,
+                "total_count": 296,
+                "injection_successful_percentage": 0.3310810810810811,
+                "injection_unsuccessful_percentage": 0.668918918918919
+            },
+            "2": {
+                "injection_successful_count": 30,
+                "injection_unsuccessful_count": 437,
+                "total_count": 467,
+                "injection_successful_percentage": 0.06423982869379015,
+                "injection_unsuccessful_percentage": 0.9357601713062098
+            },
+            "4": {
+                "injection_successful_count": 53,
+                "injection_unsuccessful_count": 381,
+                "total_count": 434,
+                "injection_successful_percentage": 0.12211981566820276,
+                "injection_unsuccessful_percentage": 0.8778801843317973
+            },
+            "5": {
+                "injection_successful_count": 110,
+                "injection_unsuccessful_count": 283,
+                "total_count": 393,
+                "injection_successful_percentage": 0.27989821882951654,
+                "injection_unsuccessful_percentage": 0.7201017811704835
+            },
+            "7": {
+                "injection_successful_count": 45,
+                "injection_unsuccessful_count": 279,
+                "total_count": 324,
+                "injection_successful_percentage": 0.1388888888888889,
+                "injection_unsuccessful_percentage": 0.8611111111111112
+            },
+            "6": {
+                "injection_successful_count": 8,
+                "injection_unsuccessful_count": 220,
+                "total_count": 228,
+                "injection_successful_percentage": 0.03508771929824561,
+                "injection_unsuccessful_percentage": 0.9649122807017544
+            },
+            "9": {
+                "injection_successful_count": 2,
+                "injection_unsuccessful_count": 128,
+                "total_count": 130,
+                "injection_successful_percentage": 0.015384615384615385,
+                "injection_unsuccessful_percentage": 0.9846153846153847
+            },
+            "0": {
+                "injection_successful_count": 1,
+                "injection_unsuccessful_count": 5,
+                "total_count": 6,
+                "injection_successful_percentage": 0.16666666666666666,
+                "injection_unsuccessful_percentage": 0.8333333333333334
+            }
+        }
+    }
+}

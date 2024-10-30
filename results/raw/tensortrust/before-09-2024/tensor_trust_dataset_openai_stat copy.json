@@ -1,0 +1,52 @@
+{
+    "stat_per_model": {
+        "gpt-3.5-turbo": {
+            "injection_successful_count": 538.0,
+            "injection_unsuccessful_count": 808.0,
+            "total_count": 1346.0,
+            "injection_successful_percentage": 0.399702823179792,
+            "injection_unsuccessful_percentage": 0.600297176820208
+        },
+        "gpt-4": {
+            "injection_successful_count": 289.0,
+            "injection_unsuccessful_count": 1057.0,
+            "total_count": 1346.0,
+            "injection_successful_percentage": 0.21471025260029716,
+            "injection_unsuccessful_percentage": 0.7852897473997028
+        }
+    },
+    "stat_per_model_per_variant": {
+        "gpt-3.5-turbo": {
+            "extraction": {
+                "injection_successful_count": 272,
+                "injection_unsuccessful_count": 298,
+                "total_count": 570,
+                "injection_successful_percentage": 0.47719298245614034,
+                "injection_unsuccessful_percentage": 0.5228070175438596
+            },
+            "hijacking": {
+                "injection_successful_count": 266,
+                "injection_unsuccessful_count": 510,
+                "total_count": 776,
+                "injection_successful_percentage": 0.3427835051546392,
+                "injection_unsuccessful_percentage": 0.6572164948453608
+            }
+        },
+        "gpt-4": {
+            "extraction": {
+                "injection_successful_count": 169,
+                "injection_unsuccessful_count": 401,
+                "total_count": 570,
+                "injection_successful_percentage": 0.2964912280701754,
+                "injection_unsuccessful_percentage": 0.7035087719298245
+            },
+            "hijacking": {
+                "injection_successful_count": 120,
+                "injection_unsuccessful_count": 656,
+                "total_count": 776,
+                "injection_successful_percentage": 0.15463917525773196,
+                "injection_unsuccessful_percentage": 0.845360824742268
+            }
+        }
+    }
+}

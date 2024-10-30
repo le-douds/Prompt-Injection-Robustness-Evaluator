@@ -1,0 +1,184 @@
+{
+    "stat_per_model": {
+        "meta-llama/Llama-3-8b-chat-hf": {
+            "injection_successful_count": 887.0,
+            "injection_unsuccessful_count": 1773.0,
+            "total_count": 2660.0,
+            "injection_successful_percentage": 0.33345864661654134,
+            "injection_unsuccessful_percentage": 0.6665413533834587
+        },
+        "meta-llama/Llama-3-70b-chat-hf": {
+            "injection_successful_count": 913.0,
+            "injection_unsuccessful_count": 1747.0,
+            "total_count": 2660.0,
+            "injection_successful_percentage": 0.3432330827067669,
+            "injection_unsuccessful_percentage": 0.6567669172932331
+        }
+    },
+    "stat_per_model_per_variant": {
+        "meta-llama/Llama-3-8b-chat-hf": {
+            "hijacking": {
+                "injection_successful_count": 681,
+                "injection_unsuccessful_count": 1512,
+                "total_count": 2193,
+                "injection_successful_percentage": 0.31053351573187415,
+                "injection_unsuccessful_percentage": 0.6894664842681258
+            },
+            "extraction": {
+                "injection_successful_count": 206,
+                "injection_unsuccessful_count": 261,
+                "total_count": 467,
+                "injection_successful_percentage": 0.4411134903640257,
+                "injection_unsuccessful_percentage": 0.5588865096359743
+            }
+        },
+        "meta-llama/Llama-3-70b-chat-hf": {
+            "hijacking": {
+                "injection_successful_count": 602,
+                "injection_unsuccessful_count": 1591,
+                "total_count": 2193,
+                "injection_successful_percentage": 0.27450980392156865,
+                "injection_unsuccessful_percentage": 0.7254901960784313
+            },
+            "extraction": {
+                "injection_successful_count": 311,
+                "injection_unsuccessful_count": 156,
+                "total_count": 467,
+                "injection_successful_percentage": 0.6659528907922913,
+                "injection_unsuccessful_percentage": 0.3340471092077088
+            }
+        }
+    },
+    "stat_per_model_per_level": {
+        "meta-llama/Llama-3-8b-chat-hf": {
+            "3": {
+                "injection_successful_count": 144,
+                "injection_unsuccessful_count": 235,
+                "total_count": 379,
+                "injection_successful_percentage": 0.37994722955145116,
+                "injection_unsuccessful_percentage": 0.6200527704485488
+            },
+            "8": {
+                "injection_successful_count": 165,
+                "injection_unsuccessful_count": 131,
+                "total_count": 296,
+                "injection_successful_percentage": 0.5574324324324325,
+                "injection_unsuccessful_percentage": 0.44256756756756754
+            },
+            "2": {
+                "injection_successful_count": 206,
+                "injection_unsuccessful_count": 261,
+                "total_count": 467,
+                "injection_successful_percentage": 0.4411134903640257,
+                "injection_unsuccessful_percentage": 0.5588865096359743
+            },
+            "4": {
+                "injection_successful_count": 202,
+                "injection_unsuccessful_count": 232,
+                "total_count": 434,
+                "injection_successful_percentage": 0.46543778801843316,
+                "injection_unsuccessful_percentage": 0.5345622119815668
+            },
+            "5": {
+                "injection_successful_count": 88,
+                "injection_unsuccessful_count": 305,
+                "total_count": 393,
+                "injection_successful_percentage": 0.22391857506361323,
+                "injection_unsuccessful_percentage": 0.7760814249363868
+            },
+            "7": {
+                "injection_successful_count": 50,
+                "injection_unsuccessful_count": 274,
+                "total_count": 324,
+                "injection_successful_percentage": 0.15432098765432098,
+                "injection_unsuccessful_percentage": 0.845679012345679
+            },
+            "6": {
+                "injection_successful_count": 31,
+                "injection_unsuccessful_count": 197,
+                "total_count": 228,
+                "injection_successful_percentage": 0.13596491228070176,
+                "injection_unsuccessful_percentage": 0.8640350877192983
+            },
+            "9": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 133,
+                "total_count": 133,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            },
+            "0": {
+                "injection_successful_count": 1,
+                "injection_unsuccessful_count": 5,
+                "total_count": 6,
+                "injection_successful_percentage": 0.16666666666666666,
+                "injection_unsuccessful_percentage": 0.8333333333333334
+            }
+        },
+        "meta-llama/Llama-3-70b-chat-hf": {
+            "3": {
+                "injection_successful_count": 154,
+                "injection_unsuccessful_count": 225,
+                "total_count": 379,
+                "injection_successful_percentage": 0.40633245382585753,
+                "injection_unsuccessful_percentage": 0.5936675461741425
+            },
+            "8": {
+                "injection_successful_count": 12,
+                "injection_unsuccessful_count": 284,
+                "total_count": 296,
+                "injection_successful_percentage": 0.04054054054054054,
+                "injection_unsuccessful_percentage": 0.9594594594594594
+            },
+            "2": {
+                "injection_successful_count": 311,
+                "injection_unsuccessful_count": 156,
+                "total_count": 467,
+                "injection_successful_percentage": 0.6659528907922913,
+                "injection_unsuccessful_percentage": 0.3340471092077088
+            },
+            "4": {
+                "injection_successful_count": 204,
+                "injection_unsuccessful_count": 230,
+                "total_count": 434,
+                "injection_successful_percentage": 0.4700460829493088,
+                "injection_unsuccessful_percentage": 0.5299539170506913
+            },
+            "5": {
+                "injection_successful_count": 132,
+                "injection_unsuccessful_count": 261,
+                "total_count": 393,
+                "injection_successful_percentage": 0.33587786259541985,
+                "injection_unsuccessful_percentage": 0.6641221374045801
+            },
+            "7": {
+                "injection_successful_count": 71,
+                "injection_unsuccessful_count": 253,
+                "total_count": 324,
+                "injection_successful_percentage": 0.2191358024691358,
+                "injection_unsuccessful_percentage": 0.7808641975308642
+            },
+            "6": {
+                "injection_successful_count": 29,
+                "injection_unsuccessful_count": 199,
+                "total_count": 228,
+                "injection_successful_percentage": 0.12719298245614036,
+                "injection_unsuccessful_percentage": 0.8728070175438597
+            },
+            "9": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 133,
+                "total_count": 133,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            },
+            "0": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 6,
+                "total_count": 6,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            }
+        }
+    }
+}

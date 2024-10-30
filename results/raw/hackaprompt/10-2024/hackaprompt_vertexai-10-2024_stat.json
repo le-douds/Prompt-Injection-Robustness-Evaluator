@@ -1,0 +1,184 @@
+{
+    "stat_per_model": {
+        "google/gemini-1.5-flash-001": {
+            "injection_successful_count": 1005.0,
+            "injection_unsuccessful_count": 1654.0,
+            "total_count": 2659.0,
+            "injection_successful_percentage": 0.3779616397141783,
+            "injection_unsuccessful_percentage": 0.6220383602858217
+        },
+        "google/gemini-1.5-pro-001": {
+            "injection_successful_count": 665.0,
+            "injection_unsuccessful_count": 1995.0,
+            "total_count": 2660.0,
+            "injection_successful_percentage": 0.25,
+            "injection_unsuccessful_percentage": 0.75
+        }
+    },
+    "stat_per_model_per_variant": {
+        "google/gemini-1.5-flash-001": {
+            "hijacking": {
+                "injection_successful_count": 706,
+                "injection_unsuccessful_count": 1487,
+                "total_count": 2193,
+                "injection_successful_percentage": 0.32193342453260376,
+                "injection_unsuccessful_percentage": 0.6780665754673962
+            },
+            "extraction": {
+                "injection_successful_count": 299,
+                "injection_unsuccessful_count": 167,
+                "total_count": 466,
+                "injection_successful_percentage": 0.6416309012875536,
+                "injection_unsuccessful_percentage": 0.3583690987124464
+            }
+        },
+        "google/gemini-1.5-pro-001": {
+            "hijacking": {
+                "injection_successful_count": 511,
+                "injection_unsuccessful_count": 1682,
+                "total_count": 2193,
+                "injection_successful_percentage": 0.23301413588691292,
+                "injection_unsuccessful_percentage": 0.7669858641130871
+            },
+            "extraction": {
+                "injection_successful_count": 154,
+                "injection_unsuccessful_count": 313,
+                "total_count": 467,
+                "injection_successful_percentage": 0.3297644539614561,
+                "injection_unsuccessful_percentage": 0.6702355460385439
+            }
+        }
+    },
+    "stat_per_model_per_level": {
+        "google/gemini-1.5-flash-001": {
+            "3": {
+                "injection_successful_count": 178,
+                "injection_unsuccessful_count": 201,
+                "total_count": 379,
+                "injection_successful_percentage": 0.46965699208443273,
+                "injection_unsuccessful_percentage": 0.5303430079155673
+            },
+            "8": {
+                "injection_successful_count": 137,
+                "injection_unsuccessful_count": 159,
+                "total_count": 296,
+                "injection_successful_percentage": 0.46283783783783783,
+                "injection_unsuccessful_percentage": 0.5371621621621622
+            },
+            "2": {
+                "injection_successful_count": 299,
+                "injection_unsuccessful_count": 167,
+                "total_count": 466,
+                "injection_successful_percentage": 0.6416309012875536,
+                "injection_unsuccessful_percentage": 0.3583690987124464
+            },
+            "4": {
+                "injection_successful_count": 199,
+                "injection_unsuccessful_count": 235,
+                "total_count": 434,
+                "injection_successful_percentage": 0.45852534562211983,
+                "injection_unsuccessful_percentage": 0.5414746543778802
+            },
+            "5": {
+                "injection_successful_count": 136,
+                "injection_unsuccessful_count": 257,
+                "total_count": 393,
+                "injection_successful_percentage": 0.3460559796437659,
+                "injection_unsuccessful_percentage": 0.6539440203562341
+            },
+            "7": {
+                "injection_successful_count": 32,
+                "injection_unsuccessful_count": 292,
+                "total_count": 324,
+                "injection_successful_percentage": 0.09876543209876543,
+                "injection_unsuccessful_percentage": 0.9012345679012346
+            },
+            "6": {
+                "injection_successful_count": 21,
+                "injection_unsuccessful_count": 207,
+                "total_count": 228,
+                "injection_successful_percentage": 0.09210526315789473,
+                "injection_unsuccessful_percentage": 0.9078947368421053
+            },
+            "9": {
+                "injection_successful_count": 2,
+                "injection_unsuccessful_count": 131,
+                "total_count": 133,
+                "injection_successful_percentage": 0.015037593984962405,
+                "injection_unsuccessful_percentage": 0.9849624060150376
+            },
+            "0": {
+                "injection_successful_count": 1,
+                "injection_unsuccessful_count": 5,
+                "total_count": 6,
+                "injection_successful_percentage": 0.16666666666666666,
+                "injection_unsuccessful_percentage": 0.8333333333333334
+            }
+        },
+        "google/gemini-1.5-pro-001": {
+            "3": {
+                "injection_successful_count": 128,
+                "injection_unsuccessful_count": 251,
+                "total_count": 379,
+                "injection_successful_percentage": 0.33773087071240104,
+                "injection_unsuccessful_percentage": 0.662269129287599
+            },
+            "8": {
+                "injection_successful_count": 46,
+                "injection_unsuccessful_count": 250,
+                "total_count": 296,
+                "injection_successful_percentage": 0.1554054054054054,
+                "injection_unsuccessful_percentage": 0.8445945945945946
+            },
+            "2": {
+                "injection_successful_count": 154,
+                "injection_unsuccessful_count": 313,
+                "total_count": 467,
+                "injection_successful_percentage": 0.3297644539614561,
+                "injection_unsuccessful_percentage": 0.6702355460385439
+            },
+            "4": {
+                "injection_successful_count": 163,
+                "injection_unsuccessful_count": 271,
+                "total_count": 434,
+                "injection_successful_percentage": 0.37557603686635943,
+                "injection_unsuccessful_percentage": 0.6244239631336406
+            },
+            "5": {
+                "injection_successful_count": 134,
+                "injection_unsuccessful_count": 259,
+                "total_count": 393,
+                "injection_successful_percentage": 0.34096692111959287,
+                "injection_unsuccessful_percentage": 0.6590330788804071
+            },
+            "7": {
+                "injection_successful_count": 24,
+                "injection_unsuccessful_count": 300,
+                "total_count": 324,
+                "injection_successful_percentage": 0.07407407407407407,
+                "injection_unsuccessful_percentage": 0.9259259259259259
+            },
+            "6": {
+                "injection_successful_count": 15,
+                "injection_unsuccessful_count": 213,
+                "total_count": 228,
+                "injection_successful_percentage": 0.06578947368421052,
+                "injection_unsuccessful_percentage": 0.9342105263157895
+            },
+            "9": {
+                "injection_successful_count": 1,
+                "injection_unsuccessful_count": 132,
+                "total_count": 133,
+                "injection_successful_percentage": 0.007518796992481203,
+                "injection_unsuccessful_percentage": 0.9924812030075187
+            },
+            "0": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 6,
+                "total_count": 6,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            }
+        }
+    }
+}

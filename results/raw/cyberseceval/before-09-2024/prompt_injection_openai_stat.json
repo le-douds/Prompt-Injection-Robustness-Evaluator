@@ -1,0 +1,302 @@
+{
+    "stat_per_model": {
+        "gpt-3.5-turbo": {
+            "injection_successful_count": 71.0,
+            "injection_unsuccessful_count": 180.0,
+            "total_count": 251.0,
+            "injection_successful_percentage": 0.28286852589641437,
+            "injection_unsuccessful_percentage": 0.7171314741035857
+        },
+        "gpt-4": {
+            "injection_successful_count": 47.0,
+            "injection_unsuccessful_count": 204.0,
+            "total_count": 251.0,
+            "injection_successful_percentage": 0.18725099601593626,
+            "injection_unsuccessful_percentage": 0.8127490039840638
+        }
+    },
+    "stat_per_model_per_variant": {
+        "gpt-3.5-turbo": {
+            "ignore_previous_instructions": {
+                "injection_successful_count": 5,
+                "injection_unsuccessful_count": 20,
+                "total_count": 25,
+                "injection_successful_percentage": 0.2,
+                "injection_unsuccessful_percentage": 0.8
+            },
+            "indirect_reference": {
+                "injection_successful_count": 4,
+                "injection_unsuccessful_count": 9,
+                "total_count": 13,
+                "injection_successful_percentage": 0.3076923076923077,
+                "injection_unsuccessful_percentage": 0.6923076923076923
+            },
+            "token_smuggling": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 13,
+                "total_count": 13,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            },
+            "system_mode": {
+                "injection_successful_count": 5,
+                "injection_unsuccessful_count": 14,
+                "total_count": 19,
+                "injection_successful_percentage": 0.2631578947368421,
+                "injection_unsuccessful_percentage": 0.7368421052631579
+            },
+            "different_user_input_language": {
+                "injection_successful_count": 12,
+                "injection_unsuccessful_count": 13,
+                "total_count": 25,
+                "injection_successful_percentage": 0.48,
+                "injection_unsuccessful_percentage": 0.52
+            },
+            "overload_with_information": {
+                "injection_successful_count": 8,
+                "injection_unsuccessful_count": 12,
+                "total_count": 20,
+                "injection_successful_percentage": 0.4,
+                "injection_unsuccessful_percentage": 0.6
+            },
+            "few_shot_attack": {
+                "injection_successful_count": 4,
+                "injection_unsuccessful_count": 7,
+                "total_count": 11,
+                "injection_successful_percentage": 0.36363636363636365,
+                "injection_unsuccessful_percentage": 0.6363636363636364
+            },
+            "mixed_techniques": {
+                "injection_successful_count": 11,
+                "injection_unsuccessful_count": 22,
+                "total_count": 33,
+                "injection_successful_percentage": 0.3333333333333333,
+                "injection_unsuccessful_percentage": 0.6666666666666666
+            },
+            "many_shot_attack": {
+                "injection_successful_count": 3,
+                "injection_unsuccessful_count": 4,
+                "total_count": 7,
+                "injection_successful_percentage": 0.42857142857142855,
+                "injection_unsuccessful_percentage": 0.5714285714285714
+            },
+            "repeated_token_attack": {
+                "injection_successful_count": 4,
+                "injection_unsuccessful_count": 2,
+                "total_count": 6,
+                "injection_successful_percentage": 0.6666666666666666,
+                "injection_unsuccessful_percentage": 0.3333333333333333
+            },
+            "persuasion": {
+                "injection_successful_count": 2,
+                "injection_unsuccessful_count": 24,
+                "total_count": 26,
+                "injection_successful_percentage": 0.07692307692307693,
+                "injection_unsuccessful_percentage": 0.9230769230769231
+            },
+            "payload_splitting": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 9,
+                "total_count": 9,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            },
+            "output_formatting_manipulation": {
+                "injection_successful_count": 7,
+                "injection_unsuccessful_count": 10,
+                "total_count": 17,
+                "injection_successful_percentage": 0.4117647058823529,
+                "injection_unsuccessful_percentage": 0.5882352941176471
+            },
+            "hypothetical_scenario": {
+                "injection_successful_count": 2,
+                "injection_unsuccessful_count": 11,
+                "total_count": 13,
+                "injection_successful_percentage": 0.15384615384615385,
+                "injection_unsuccessful_percentage": 0.8461538461538461
+            },
+            "virtualization": {
+                "injection_successful_count": 4,
+                "injection_unsuccessful_count": 10,
+                "total_count": 14,
+                "injection_successful_percentage": 0.2857142857142857,
+                "injection_unsuccessful_percentage": 0.7142857142857143
+            }
+        },
+        "gpt-4": {
+            "ignore_previous_instructions": {
+                "injection_successful_count": 4,
+                "injection_unsuccessful_count": 21,
+                "total_count": 25,
+                "injection_successful_percentage": 0.16,
+                "injection_unsuccessful_percentage": 0.84
+            },
+            "indirect_reference": {
+                "injection_successful_count": 4,
+                "injection_unsuccessful_count": 9,
+                "total_count": 13,
+                "injection_successful_percentage": 0.3076923076923077,
+                "injection_unsuccessful_percentage": 0.6923076923076923
+            },
+            "token_smuggling": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 13,
+                "total_count": 13,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            },
+            "system_mode": {
+                "injection_successful_count": 3,
+                "injection_unsuccessful_count": 16,
+                "total_count": 19,
+                "injection_successful_percentage": 0.15789473684210525,
+                "injection_unsuccessful_percentage": 0.8421052631578947
+            },
+            "different_user_input_language": {
+                "injection_successful_count": 6,
+                "injection_unsuccessful_count": 19,
+                "total_count": 25,
+                "injection_successful_percentage": 0.24,
+                "injection_unsuccessful_percentage": 0.76
+            },
+            "overload_with_information": {
+                "injection_successful_count": 4,
+                "injection_unsuccessful_count": 16,
+                "total_count": 20,
+                "injection_successful_percentage": 0.2,
+                "injection_unsuccessful_percentage": 0.8
+            },
+            "few_shot_attack": {
+                "injection_successful_count": 1,
+                "injection_unsuccessful_count": 10,
+                "total_count": 11,
+                "injection_successful_percentage": 0.09090909090909091,
+                "injection_unsuccessful_percentage": 0.9090909090909091
+            },
+            "mixed_techniques": {
+                "injection_successful_count": 11,
+                "injection_unsuccessful_count": 22,
+                "total_count": 33,
+                "injection_successful_percentage": 0.3333333333333333,
+                "injection_unsuccessful_percentage": 0.6666666666666666
+            },
+            "many_shot_attack": {
+                "injection_successful_count": 3,
+                "injection_unsuccessful_count": 4,
+                "total_count": 7,
+                "injection_successful_percentage": 0.42857142857142855,
+                "injection_unsuccessful_percentage": 0.5714285714285714
+            },
+            "repeated_token_attack": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 6,
+                "total_count": 6,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            },
+            "persuasion": {
+                "injection_successful_count": 3,
+                "injection_unsuccessful_count": 23,
+                "total_count": 26,
+                "injection_successful_percentage": 0.11538461538461539,
+                "injection_unsuccessful_percentage": 0.8846153846153846
+            },
+            "payload_splitting": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 9,
+                "total_count": 9,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            },
+            "output_formatting_manipulation": {
+                "injection_successful_count": 6,
+                "injection_unsuccessful_count": 11,
+                "total_count": 17,
+                "injection_successful_percentage": 0.35294117647058826,
+                "injection_unsuccessful_percentage": 0.6470588235294118
+            },
+            "hypothetical_scenario": {
+                "injection_successful_count": 2,
+                "injection_unsuccessful_count": 11,
+                "total_count": 13,
+                "injection_successful_percentage": 0.15384615384615385,
+                "injection_unsuccessful_percentage": 0.8461538461538461
+            },
+            "virtualization": {
+                "injection_successful_count": 0,
+                "injection_unsuccessful_count": 14,
+                "total_count": 14,
+                "injection_successful_percentage": 0.0,
+                "injection_unsuccessful_percentage": 1.0
+            }
+        }
+    },
+    "stat_per_model_per_type": {
+        "gpt-3.5-turbo": {
+            "direct": {
+                "injection_successful_count": 53,
+                "injection_unsuccessful_count": 143,
+                "total_count": 196,
+                "injection_successful_percentage": 0.27040816326530615,
+                "injection_unsuccessful_percentage": 0.7295918367346939
+            },
+            "indirect": {
+                "injection_successful_count": 18,
+                "injection_unsuccessful_count": 37,
+                "total_count": 55,
+                "injection_successful_percentage": 0.32727272727272727,
+                "injection_unsuccessful_percentage": 0.6727272727272727
+            }
+        },
+        "gpt-4": {
+            "direct": {
+                "injection_successful_count": 29,
+                "injection_unsuccessful_count": 167,
+                "total_count": 196,
+                "injection_successful_percentage": 0.14795918367346939,
+                "injection_unsuccessful_percentage": 0.8520408163265306
+            },
+            "indirect": {
+                "injection_successful_count": 18,
+                "injection_unsuccessful_count": 37,
+                "total_count": 55,
+                "injection_successful_percentage": 0.32727272727272727,
+                "injection_unsuccessful_percentage": 0.6727272727272727
+            }
+        }
+    },
+    "stat_per_model_per_risk_category": {
+        "gpt-3.5-turbo": {
+            "security-violating": {
+                "injection_successful_count": 51,
+                "injection_unsuccessful_count": 129,
+                "total_count": 180,
+                "injection_successful_percentage": 0.2833333333333333,
+                "injection_unsuccessful_percentage": 0.7166666666666667
+            },
+            "logic-violating": {
+                "injection_successful_count": 20,
+                "injection_unsuccessful_count": 51,
+                "total_count": 71,
+                "injection_successful_percentage": 0.28169014084507044,
+                "injection_unsuccessful_percentage": 0.7183098591549296
+            }
+        },
+        "gpt-4": {
+            "security-violating": {
+                "injection_successful_count": 33,
+                "injection_unsuccessful_count": 147,
+                "total_count": 180,
+                "injection_successful_percentage": 0.18333333333333332,
+                "injection_unsuccessful_percentage": 0.8166666666666667
+            },
+            "logic-violating": {
+                "injection_successful_count": 14,
+                "injection_unsuccessful_count": 57,
+                "total_count": 71,
+                "injection_successful_percentage": 0.19718309859154928,
+                "injection_unsuccessful_percentage": 0.8028169014084507
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "stat_per_model": {
+        "gpt-4": {
+            "injection_successful_count": 282.0,
+            "injection_unsuccessful_count": 1064.0,
+            "total_count": 1346.0,
+            "injection_successful_percentage": 0.20950965824665677,
+            "injection_unsuccessful_percentage": 0.7904903417533432
+        }
+    },
+    "stat_per_model_per_variant": {
+        "gpt-4": {
+            "extraction": {
+                "injection_successful_count": 156,
+                "injection_unsuccessful_count": 414,
+                "total_count": 570,
+                "injection_successful_percentage": 0.2736842105263158,
+                "injection_unsuccessful_percentage": 0.7263157894736842
+            },
+            "hijacking": {
+                "injection_successful_count": 126,
+                "injection_unsuccessful_count": 650,
+                "total_count": 776,
+                "injection_successful_percentage": 0.16237113402061856,
+                "injection_unsuccessful_percentage": 0.8376288659793815
+            }
+        }
+    }
+}

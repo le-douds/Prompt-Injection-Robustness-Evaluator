@@ -1,0 +1,52 @@
+{
+    "stat_per_model": {
+        "gpt-3.5-turbo": {
+            "injection_successful_count": 540.0,
+            "injection_unsuccessful_count": 806.0,
+            "total_count": 1346.0,
+            "injection_successful_percentage": 0.4011887072808321,
+            "injection_unsuccessful_percentage": 0.5988112927191679
+        },
+        "gpt-4": {
+            "injection_successful_count": 288.0,
+            "injection_unsuccessful_count": 1058.0,
+            "total_count": 1346.0,
+            "injection_successful_percentage": 0.2139673105497771,
+            "injection_unsuccessful_percentage": 0.7860326894502229
+        }
+    },
+    "stat_per_model_per_variant": {
+        "gpt-3.5-turbo": {
+            "extraction": {
+                "injection_successful_count": 271,
+                "injection_unsuccessful_count": 299,
+                "total_count": 570,
+                "injection_successful_percentage": 0.47543859649122805,
+                "injection_unsuccessful_percentage": 0.5245614035087719
+            },
+            "hijacking": {
+                "injection_successful_count": 269,
+                "injection_unsuccessful_count": 507,
+                "total_count": 776,
+                "injection_successful_percentage": 0.34664948453608246,
+                "injection_unsuccessful_percentage": 0.6533505154639175
+            }
+        },
+        "gpt-4": {
+            "extraction": {
+                "injection_successful_count": 166,
+                "injection_unsuccessful_count": 404,
+                "total_count": 570,
+                "injection_successful_percentage": 0.2912280701754386,
+                "injection_unsuccessful_percentage": 0.7087719298245614
+            },
+            "hijacking": {
+                "injection_successful_count": 122,
+                "injection_unsuccessful_count": 654,
+                "total_count": 776,
+                "injection_successful_percentage": 0.15721649484536082,
+                "injection_unsuccessful_percentage": 0.8427835051546392
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "stat_per_model": {
+        "mistralai/Mistral-7B-Instruct-v0.2": {
+            "injection_successful_count": 634.0,
+            "injection_unsuccessful_count": 712.0,
+            "total_count": 1346.0,
+            "injection_successful_percentage": 0.4710252600297177,
+            "injection_unsuccessful_percentage": 0.5289747399702823
+        },
+        "mistralai/Mixtral-8x22B-Instruct-v0.1": {
+            "injection_successful_count": 821.0,
+            "injection_unsuccessful_count": 525.0,
+            "total_count": 1346.0,
+            "injection_successful_percentage": 0.6099554234769688,
+            "injection_unsuccessful_percentage": 0.3900445765230312
+        }
+    },
+    "stat_per_model_per_variant": {
+        "mistralai/Mistral-7B-Instruct-v0.2": {
+            "extraction": {
+                "injection_successful_count": 497,
+                "injection_unsuccessful_count": 73,
+                "total_count": 570,
+                "injection_successful_percentage": 0.8719298245614036,
+                "injection_unsuccessful_percentage": 0.1280701754385965
+            },
+            "hijacking": {
+                "injection_successful_count": 137,
+                "injection_unsuccessful_count": 639,
+                "total_count": 776,
+                "injection_successful_percentage": 0.17654639175257733,
+                "injection_unsuccessful_percentage": 0.8234536082474226
+            }
+        },
+        "mistralai/Mixtral-8x22B-Instruct-v0.1": {
+            "extraction": {
+                "injection_successful_count": 536,
+                "injection_unsuccessful_count": 34,
+                "total_count": 570,
+                "injection_successful_percentage": 0.9403508771929825,
+                "injection_unsuccessful_percentage": 0.05964912280701754
+            },
+            "hijacking": {
+                "injection_successful_count": 285,
+                "injection_unsuccessful_count": 491,
+                "total_count": 776,
+                "injection_successful_percentage": 0.36726804123711343,
+                "injection_unsuccessful_percentage": 0.6327319587628866
+            }
+        }
+    }
+}
